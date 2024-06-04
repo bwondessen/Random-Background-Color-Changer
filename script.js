@@ -25,5 +25,7 @@ function changeBackgroundColor() {
     bgHexCodeSpanElement.innerText = color;
     body.style.backgroundColor = color;
 }
-const btn = document.querySelector("#click-btn");
+
+const btn = document.querySelector("#btn");
+
 console.log(btn);
